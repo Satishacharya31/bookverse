@@ -12,18 +12,22 @@ import {
   TrendingUp,
   Users,
   Grid3X3,
-  Settings
+  Settings,
+  Upload,
+  BarChart
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const mainLinks = [
   { icon: Home, text: 'Home', href: '/' },
+  { icon: TrendingUp, text: 'Trending', href: '/trending' },
   { icon: PlaySquare, text: 'Shorts', href: '/shorts' },
   { icon: Users, text: 'Subscriptions', href: '/subscriptions' },
 ];
 
 const prioritizedLinks = [
   { icon: Home, text: 'Home', href: '/' },
+  { icon: TrendingUp, text: 'Trending', href: '/trending' },
   { icon: PlaySquare, text: 'Shorts', href: '/shorts' },
   { icon: Library, text: 'Library', href: '/library' },
 ];
@@ -31,8 +35,12 @@ const prioritizedLinks = [
 const secondaryLinks = [
   { icon: Library, text: 'Library', href: '/library' },
   { icon: Clock, text: 'History', href: '/history' },
-  { icon: BookOpen, text: 'Your books', href: '/your-books' },
+  { icon: BookOpen, text: 'Your books', href: '/profile' },
   { icon: Heart, text: 'Liked books', href: '/liked-books' },
+  { icon: Grid3X3, text: 'Playlists', href: '/playlists' },
+  { icon: Upload, text: 'Upload', href: '/upload' },
+  { icon: BarChart, text: 'Analytics', href: '/analytics' },
+  { icon: Settings, text: 'Settings', href: '/settings' },
 ];
 
 const subscriptionLinks = [
